@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Functionality">
+            <menu>
+                <item
+                    android:id="@+id/nav_main"
+                    android:title="Main" >
+                </item>
+                <item
+                    android:id="@+id/nav_account"
+                    android:title="Account" >
+                </item>
+                <item
+                    android:id="@+id/nav_inventory"
+                    android:title="Inventory" >
+
+                </item>>
+                <item
+                    android:id="@+id/nav_report"
+                    android:title="Report" />
+               <!-- <item
+                    android:id="@+id/nav_search"
+                    android:title="Search" />-->
+            </menu>
+        </item>
+
+        <item android:title="Maintenance">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="@string/action_settings"/>
+                <item
+                    android:id="@+id/nav_personalaccount"
+                    android:icon="@drawable/ic_account_box_black_24dp"
+                    android:title="User Account"/>
+
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/action_logout"
+            android:title="@string/action_logout"
+            />
+
+
+    </group>
+
+
+</menu>

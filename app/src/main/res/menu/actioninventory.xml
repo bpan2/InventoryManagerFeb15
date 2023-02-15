@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/receiving"
+        android:title="RECEIVING"/>
+
+    <item android:id="@+id/sales"
+        android:title="SALES"/>
+
+    <item android:id="@+id/returns"
+        android:title="RETURN"/>
+
+    <item android:id="@+id/edit"
+        android:title="EDIT"/>
+
+</menu>
